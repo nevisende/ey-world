@@ -15,9 +15,15 @@ async function getData(url) {
 
 export default class AirVisualAPI {
   constructor() {
+    this.countries = [];
     this.states = [];
     this.cities = [];
     this.specifiedCityData = [];
+  }
+
+  async getCountries() {
+    this.countries = await getData(`countries?${KEY_PARAM}`);
+    return this;
   }
 
   async getStates(country) {
