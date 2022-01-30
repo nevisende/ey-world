@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <main data-testid="home-main">
       {countries.map((countryDetail) => (
         <NavLink
           to={`/detail?country=${countryDetail.country}`}
@@ -33,7 +33,7 @@ export default function Home() {
           />
         </NavLink>
       ))}
-    </>
+    </main>
 
   );
 }
