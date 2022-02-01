@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE_URL = 'http://api.airvisual.com/v2/';
-const KEY_PARAM = process.env.AIR_KEY;
+const KEY_PARAM = process.env.REACT_APP_AIR_KEY;
 
 const AirVisualClient = axios.create({
   baseURL: BASE_URL,

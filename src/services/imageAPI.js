@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 const MAP_BASE_URL = 'https://maps.googleapis.com/maps/api/staticmap?size=400x400&maptype=hybrid';
-const MAP_KEY_PARAM = process.env.MAP_KEY;
+const MAP_KEY_PARAM = process.env.REACT_APP_MAP_KEY;
 
 const UNSPLASH_BASE_URL = 'https://api.unsplash.com/search/';
-const UNSPLASH_KEY_PARAM = process.env.UNSPLASH_KEY;
+const UNSPLASH_KEY_PARAM = process.env.REACT_APP_UNSPLASH_KEY;
 
 const unsplashApiClient = axios.create({
   baseURL: UNSPLASH_BASE_URL,
