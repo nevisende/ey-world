@@ -45,7 +45,7 @@ export default function DetailCity() {
     setCountryCityArr(data);
     setTimeout(() => {
       setVisibility('visible');
-    }, 500);
+    }, 300);
   }, []);
 
   return (

@@ -28,14 +28,14 @@ export default function DetailState() {
     setCountryCityArr(data);
     setTimeout(() => {
       setVisibility('visible');
-    }, 500);
+    }, 300);
     setTimeout(() => setShowDesc(false), 5000);
   }, []);
 
   return (
     <div style={{ visibility }}>
       {showDesc && (
-      <desc className="py-4 bg-yellow-200 rounded md:w-[40%] text-center px-2 mb-1 text-red-400">
+      <desc className="py-4 bg-yellow-200 rounded md:w-[40%] text-center px-2 mb-1 block text-red-400">
         {' '}
         Images come as the first related result from Unsplash.com.
         And If there is no result, a meme shows up to you.
