@@ -13,7 +13,6 @@ export default function Country(props) {
     }
     return {};
   }
-  console.log(countryDetail.order);
 
   return (
     <div
