@@ -22,7 +22,7 @@ export default class AirVisualAPI {
   }
 
   async getCountries() {
-    this.countries = await getData(`countries?${KEY_PARAM}`);
+    this.countries = await getData(`countries?${KEY_PARAM}/`);
     return this;
   }
 
