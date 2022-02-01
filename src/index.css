@@ -3,6 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./assets/fonts/Lato-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .home-image {
   filter: sepia(1) drop-shadow(0 0 0.75rem #4369b2);
 }
