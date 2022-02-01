@@ -39,19 +39,19 @@ export default function DetailCity() {
     } else {
       order = 5;
     }
-    setImg(gifsObj[order]);
     setPollutionColor(pollutionObj[order]);
     setPollutionCategory(levelHealthConcern[order]);
     setCountryCityArr(data);
     setTimeout(() => {
+      setImg(gifsObj[order]);
       setVisibility('visible');
-    }, 300);
+    }, 500);
   }, []);
 
   return (
     <div style={{ visibility }}>
-      <img className="sm:w-full min-w-[600px]" src={img[Math.floor(Math.random() * img.length)]} alt="gif for status" />
-      <div className="grid grid-cols-3 items-center mt-4">
+      <img className="sm:w-full px-2 lg:min-w-[600px] mx-auto my-0" src={img[Math.floor(Math.random() * img.length)]} alt="gif for status" />
+      <div className="grid grid-cols-3 items-center mt-4 px-2">
         <span className="font-semibold text-xl">Air Pollution(aqius) :</span>
         <div style={{ backgroundColor: pollutionColor }} className="p-2 rounded text-center font-semibold flex flex-col ml-4">
           <span>

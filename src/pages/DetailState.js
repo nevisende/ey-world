@@ -28,14 +28,14 @@ export default function DetailState() {
     setCountryCityArr(data);
     setTimeout(() => {
       setVisibility('visible');
-    }, 300);
-    setTimeout(() => setShowDesc(false), 5000);
+    }, 500);
+    setTimeout(() => setShowDesc(false), 10000);
   }, []);
 
   return (
     <div style={{ visibility }}>
       {showDesc && (
-      <desc className="py-4 bg-yellow-200 rounded md:w-[40%] text-center px-2 mb-1 block text-red-400">
+      <desc className="py-4 bg-yellow-200 rounded md:w-[70vw] text-center px-2 mb-1 block mx-auto my-0  text-red-400">
         {' '}
         Images come as the first related result from Unsplash.com.
         And If there is no result, a meme shows up to you.
@@ -44,7 +44,7 @@ export default function DetailState() {
 
       </desc>
       )}
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 lg:w-[65vw]">
         <div>
           {countryCityArr
             .map((countryCity, index) => ((index < Math.round(countryCityArr.length / 2)) && (

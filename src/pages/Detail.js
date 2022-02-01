@@ -22,7 +22,7 @@ export default function Detail() {
     setCountryStatesArr(addImage);
     setTimeout(() => {
       setVisibility('visible');
-    }, 300);
+    }, 500);
   }, []);
 
   return (
