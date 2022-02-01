@@ -1,6 +1,15 @@
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware, combineReducers } from 'redux';
+
 import logger from 'redux-logger';
-import reducer from './airdata/airdata';
+import airDataReducer from './airdata/airdata';
+import themeReducer from './theme/theme';
+import pageinfoReducer from './pageinfo/pageinfo';
+
+const reducer = combineReducers({
+  airDataReducer,
+  pageinfoReducer,
+  themeReducer,
+});
 
 const store = createStore(
   reducer,

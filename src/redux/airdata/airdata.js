@@ -3,7 +3,7 @@ const ADD_STATES = 'ADD_STATES';
 const ADD_CITIES = 'ADD_CITIES';
 const ADD_CITY_DETAIL = 'ADD_CITY_DETAIL';
 
-const initialState = [
+export const initialState = [
   { country: 'Afghanistan', image: 'https://fvmstatic.s3.amazonaws.com/maps/m/WRLD-AF-01-0003.png', length: 1 },
   { country: 'France', image: 'https://fvmstatic.s3.amazonaws.com/maps/m/FR-EPS-01-0001.png', length: 16 },
   { country: 'Germany', image: 'https://fvmstatic.s3.amazonaws.com/maps/m/DE-EPS-01-0001.png', length: 16 },
@@ -33,7 +33,7 @@ export const addCityDetail = (payload) => ({
   payload,
 });
 
-const reducer = (state = initialState, action) => {
+const airDataReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_STATES:
       return [...state]
@@ -63,4 +63,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export default reducer;
+export default airDataReducer;
