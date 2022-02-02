@@ -8,9 +8,12 @@
 
 Additional description about the project and its features.
 
+## [A video presenting the features of the project](https://www.loom.com/share/cf6227e45f37495fb826dce946e0ab5d)
+You can watch [the presentation](https://www.loom.com/share/cf6227e45f37495fb826dce946e0ab5d) especially first one minute if you want to check live demo.
 ## [Live Demo](https://ey-world.netlify.app/)
 
 Ey-world is now live! [Click here](https://ey-world.netlify.app/)
+
 ## Built With
 
 - HTML
@@ -41,7 +44,7 @@ Ey-world is now live! [Click here](https://ey-world.netlify.app/)
   > in your cmd or command line navigate to where this project is located, then;
 
 ```cmd
-cd space_travellers
+cd ey-world
 ```
 
 > thereafter run
@@ -68,10 +71,12 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+
+
 ## Acknowledgments
 
-- Special thanks to the SpaceX community for providing the API from which live data is fetched.
-- Microverse Team for facilitating project colaboration
+- Inspired by the Original design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
+- Used AirVisual,Unsplash, and Google Maps Platform APIs.
 
 ## 📝 License
 
