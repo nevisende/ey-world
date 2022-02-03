@@ -8,8 +8,6 @@
 
 Additional description about the project and its features.
 
-## [A video presenting the features of the project](https://www.loom.com/share/cf6227e45f37495fb826dce946e0ab5d)
-You can watch [the presentation](https://www.loom.com/share/cf6227e45f37495fb826dce946e0ab5d) especially first one minute if you want to check live demo.
 ## [Live Demo](https://ey-world.netlify.app/)
 
 Ey-world is now live! [Click here](https://ey-world.netlify.app/)
