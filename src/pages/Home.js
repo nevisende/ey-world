@@ -25,7 +25,6 @@ export default function Home() {
 
   function togleShowingEuropeCountries() {
     setShowEuropeCountries((prev) => !prev);
-    console.log({ countries });
     let filteredCountries;
     if (showEuropeCountries) filteredCountries = dataCountries;
     else {
@@ -47,7 +46,6 @@ export default function Home() {
           <label htmlFor="filterCountry">
             <input
               type="checkbox"
-              value="Bebelere süt yok"
               id="filterCountry"
               onClick={() => togleShowingEuropeCountries()}
               checked={showEuropeCountries}
