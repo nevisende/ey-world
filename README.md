@@ -11,6 +11,7 @@ Additional description about the project and its features.
 ## [Live Demo](https://ey-world.netlify.app/)
 
 Ey-world is now live! [Click here](https://ey-world.netlify.app/)
+Before checkout you need to [allow insecure content](https://superuser.com/a/1672733) in your browser because AirVisual API uses HTTP protocol and current browsers doesn't allow this default. 
 
 ## Built With
 
